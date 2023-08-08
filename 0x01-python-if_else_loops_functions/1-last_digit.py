@@ -7,7 +7,7 @@ if number < 0:
 print(f"Last digit of {number:d} is {modulus:d} and", end=" ")
 if modulus > 5:
     print("is greater than 5")
-elif modulus in range(1, 6):
-    print("is less than 6 and not 0")
-else:
+elif modulus == 0:
     print("is 0")
+else:
+    print("is less than 6 and not 0")
