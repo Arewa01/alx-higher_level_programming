@@ -2,7 +2,7 @@
 
 if __name__ == "__main__":
     """Prints the result of addition of arguments"""
-    from sys import argv  
+    from sys import argv
 
     arguments = len(argv) - 1
 
