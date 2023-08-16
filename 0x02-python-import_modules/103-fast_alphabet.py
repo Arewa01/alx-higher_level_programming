@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for alphabeth in range(ord('A'), ord('Z') + 1):
-    print("{}".format(chr(alphabeth)), end="")
+from string import ascii_uppercase
+print(ascii_uppercase)
