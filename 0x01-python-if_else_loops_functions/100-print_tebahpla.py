@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for c in range(ord('z'), ord('a') - 1, -1):
-    print((chr(c - 32)) if c % 2 else chr(c), end="")
+    print("{}".format((chr(c - 32)) if c % 2 else chr(c)), end="")
